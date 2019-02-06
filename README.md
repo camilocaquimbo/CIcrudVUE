@@ -1,8 +1,10 @@
-## Tutorial de 
-[Link](https://fernando-gaitan.com.ar/aplicacion-crud-con-vue-js-y-codeigniter-segunda-parte/)
+## Tutorial 
+
+[Aplicación CRUD con Vue.js y Codeigniter](https://fernando-gaitan.com.ar/aplicacion-crud-con-vue-js-y-codeigniter-segunda-parte/)
 
 ## Base de datos
 
+``` [SQL]
 CREATE TABLE estados(
    id_estado tinyint(1) unsigned not null primary key,
    nombre varchar(50)
@@ -26,3 +28,4 @@ VALUES
 (2, 'En proceso'),
 (3, 'Finalizada'),
 (4, 'Cancelada');
+```
